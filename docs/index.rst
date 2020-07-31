@@ -1,0 +1,5 @@
+=========================
+collective.cookieswitcher
+=========================
+
+User documentation

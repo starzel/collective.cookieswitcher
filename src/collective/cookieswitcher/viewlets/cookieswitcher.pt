@@ -1,0 +1,25 @@
+<div id="cookieswitcher"
+    tal:define="portal_state context/@@plone_portal_state;
+                portal portal_state/portal;
+                preflang portal_state/language;
+                nav_root portal_state/navigation_root;">
+    <span id="matomoAjaxOptButton"
+          class="switch off"
+          title="Besuch und Navigation werden hier anonym erfasst und ausgewertet. Für Einstellung bitte Schalter nutzen, für Hinweise bitte Link folgen."
+    >Not track</span>
+
+    <tal:de tal:condition="python: preflang == 'de'">
+        <a title="Besuch und Navigation werden hier anonym erfasst und ausgewertet. Für Einstellung bitte Schalter nutzen, für Hinweise bitte Link folgen."
+           tal:attributes="href string:${nav_root/absolute_url}/datenschutz">Datenpraxis</a>
+    </tal:de>
+    <tal:en tal:condition="python: preflang == 'en'">
+        <a tal:attributes="href string:${nav_root/absolute_url}/data-protection">Data protection</a>
+    </tal:en>
+
+
+    <script>
+        var piwikUrl = 'https://analyse.dipf.de/piwik/'
+    </script>
+    <script src="++plone++collective.cookieswitcher/cookieswitcher.js"></script>
+
+</div>

@@ -1,0 +1,31 @@
+#cookieswitcher {
+    float:left;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 4px;
+}
+
+#cookieswitcher a {
+    color: #333;
+}
+
+#cookieswitcher a:hover {
+    color: #243D76;
+}
+
+#cookieswitcher .switch {
+    display: inline-block;
+    text-indent: -9999em;
+    background: transparent url(++plone++collective.cookieswitcher/socialshareprivacy_on_off.png) no-repeat 0 0 scroll;
+    width: 23px;
+    height: 12px;
+    overflow: hidden;
+    margin: 4px 0 -2px 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+#cookieswitcher .switch.on {
+    background-position: 0 -12px;
+}
