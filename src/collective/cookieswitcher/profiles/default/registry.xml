@@ -2,7 +2,12 @@
 <registry
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n:domain="collective.cookieswitcher">
-
-<!-- -*- extra stuff goes here -*- -->
-
+	<record name="collective.cookieswitcher.matomo_url">
+	  <field type="plone.registry.field.TextLine">
+	    <title>Matomo url</title>
+	    <description></description>
+	    <required>True</required>
+	  </field>
+	  <value>https://matomourl.com/</value>
+	</record>
 </registry>

@@ -14,7 +14,7 @@
   <!-- Publish static files -->
   <plone:static
       name="collective.cookieswitcher"
-      type="plone"
+      type="theme"
       directory="static"
       />
 

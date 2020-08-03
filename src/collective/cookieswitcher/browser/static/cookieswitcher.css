@@ -17,7 +17,7 @@
 #cookieswitcher .switch {
     display: inline-block;
     text-indent: -9999em;
-    background: transparent url(++plone++collective.cookieswitcher/socialshareprivacy_on_off.png) no-repeat 0 0 scroll;
+    background: transparent url(++theme++collective.cookieswitcher/socialshareprivacy_on_off.png) no-repeat 0 0 scroll;
     width: 23px;
     height: 12px;
     overflow: hidden;

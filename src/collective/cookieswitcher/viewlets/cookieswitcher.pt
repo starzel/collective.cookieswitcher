@@ -17,9 +17,12 @@
     </tal:en>
 
 
-    <script>
-        var piwikUrl = 'https://analyse.dipf.de/piwik/'
+    <script tal:content="view/matomo_url">
+        var matomoUrl = ''
     </script>
-    <script src="++plone++collective.cookieswitcher/cookieswitcher.js"></script>
+    <script tal:attributes="src string:${portal/absolute_url}/++theme++collective.cookieswitcher/cookieswitcher.js"></script>
+
+    <style type="text/css"
+           tal:content="structure string:@import url(${portal/absolute_url}/++theme++collective.cookieswitcher/cookieswitcher.css)"></style>
 
 </div>
