@@ -13,7 +13,8 @@
            tal:attributes="href string:${nav_root/absolute_url}/datenschutz">Datenpraxis</a>
     </tal:de>
     <tal:en tal:condition="python: preflang == 'en'">
-        <a tal:attributes="href string:${nav_root/absolute_url}/data-protection">Data protection</a>
+        <a title=" Visits and navigation are recorded and evaluated anonymously. Please use switch for setting, follow link for information."
+           tal:attributes="href string:${nav_root/absolute_url}/data-protection">Data Protection</a>
     </tal:en>
 
 
