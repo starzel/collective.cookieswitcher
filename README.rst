@@ -14,6 +14,7 @@ Features
 Its working but needs love to get it easier to integrate in other projects.
 
 - As Viewlet
+- Plone 4 only (will be updated soon)
 
 
 Examples
