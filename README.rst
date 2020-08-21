@@ -2,51 +2,34 @@
    If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
    This text does not appear on pypi or github. It is a comment.
 
-.. image:: https://travis-ci.org/collective/collective.cookieswitcher.svg?branch=master
-    :target: https://travis-ci.org/collective/collective.cookieswitcher
-
-.. image:: https://coveralls.io/repos/github/collective/collective.cookieswitcher/badge.svg?branch=master
-    :target: https://coveralls.io/github/collective/collective.cookieswitcher?branch=master
-    :alt: Coveralls
-
-.. image:: https://img.shields.io/pypi/v/collective.cookieswitcher.svg
-    :target: https://pypi.python.org/pypi/collective.cookieswitcher/
-    :alt: Latest Version
-
-.. image:: https://img.shields.io/pypi/status/collective.cookieswitcher.svg
-    :target: https://pypi.python.org/pypi/collective.cookieswitcher
-    :alt: Egg Status
-
-.. image:: https://img.shields.io/pypi/pyversions/collective.cookieswitcher.svg?style=plastic   :alt: Supported - Python Versions
-
-.. image:: https://img.shields.io/pypi/l/collective.cookieswitcher.svg
-    :target: https://pypi.python.org/pypi/collective.cookieswitcher/
-    :alt: License
-
-
 =========================
 collective.cookieswitcher
 =========================
 
-Tell me what your product does
+A Matomo cookieswitcher as ajax request 
 
 Features
 --------
 
-- Can be bullet points
+Its working but needs love to get it easier to integrate in other projects.
+
+- As Viewlet
 
 
 Examples
 --------
 
 This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
+- https://www.dipf.de/
+- https://www.idea-frankfurt.eu/
 
 
 Documentation
 -------------
 
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+Needs:
+
+- https://github.com/lippoliv/piwik-plugin-ajaxoptout
 
 
 Translations
@@ -54,8 +37,7 @@ Translations
 
 This product has been translated into
 
-- Klingon (thanks, K'Plai)
-
+- Not done (TODO)
 
 Installation
 ------------
