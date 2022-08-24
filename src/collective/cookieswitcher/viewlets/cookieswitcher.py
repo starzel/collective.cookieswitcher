@@ -2,7 +2,13 @@
 
 from AccessControl.unauthorized import Unauthorized
 from plone.app.layout.viewlets import ViewletBase
-from plone.app.multilingual.interfaces import ITranslationManager
+
+try:
+    # Plone 4
+    from plone.multilingual.interfaces import ITranslationManager
+except ImportError:
+    # Plone 5
+    from plone.app.multilingual.interfaces import ITranslationManager
 from plone import api
 
 def get_link(path):
