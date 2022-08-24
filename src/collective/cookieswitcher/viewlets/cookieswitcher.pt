@@ -1,29 +1,24 @@
-<div id="cookieswitcher"
-    tal:define="portal_state context/@@plone_portal_state;
-                portal portal_state/portal;
-                preflang portal_state/language;
-                nav_root portal_state/navigation_root;">
+<div id="cookieswitcher" i18n:domain="collective.cookieswitcher"
+   tal:define="portal_state context/@@plone_portal_state;
+               portal portal_state/portal;
+               preflang portal_state/language;
+               nav_root portal_state/navigation_root;">
     <span id="matomoAjaxOptButton"
           class="switch off"
-          title="Besuch und Navigation werden hier anonym erfasst und ausgewertet. Für Einstellung bitte Schalter nutzen, für Hinweise bitte Link folgen."
+          i18n:attributes="title desc_data_handling"
+          title=""
     >Not track</span>
 
-    <tal:de tal:condition="python: preflang == 'de'">
-        <a title="Besuch und Navigation werden hier anonym erfasst und ausgewertet. Für Einstellung bitte Schalter nutzen, für Hinweise bitte Link folgen."
-           tal:attributes="href string:${nav_root/absolute_url}/datenschutz">Datenpraxis</a>
-    </tal:de>
-    <tal:en tal:condition="python: preflang == 'en'">
-        <a title=" Visits and navigation are recorded and evaluated anonymously. Please use switch for setting, follow link for information."
-           tal:attributes="href string:${nav_root/absolute_url}/data-protection">Data Protection</a>
-    </tal:en>
+  <a i18n:attributes="title desc_data_handling" title=""
+     i18n:translate="" tal:attributes="href python:view.page_link()">Data handling</a>
 
 
-    <script tal:content="view/matomo_url">
-        var matomoUrl = ''
-    </script>
-    <script tal:attributes="src string:${portal/absolute_url}/++theme++collective.cookieswitcher/cookieswitcher.js"></script>
+  <script tal:content="view/matomo_url">
+    var matomoUrl = ''
+  </script>
+  <script tal:attributes="src string:${portal/absolute_url}/++theme++collective.cookieswitcher/cookieswitcher.js"></script>
 
-    <style type="text/css"
-           tal:content="structure string:@import url(${portal/absolute_url}/++theme++collective.cookieswitcher/cookieswitcher.css)"></style>
+  <style type="text/css"
+     tal:content="structure string:@import url(${portal/absolute_url}/++theme++collective.cookieswitcher/cookieswitcher.css)"></style>
 
 </div>

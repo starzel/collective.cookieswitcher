@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-08-24 14:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ../viewlets/cookieswitcher.pt:12
+msgid "Data handling"
+msgstr ""
+
+#: ../configure.zcml:27
+msgid "Installs the collective.cookieswitcher add-on."
+msgstr ""
+
+#: ../configure.zcml:36
+msgid "Uninstalls the collective.cookieswitcher add-on."
+msgstr ""
+
+#: ../configure.zcml:27
+msgid "collective.cookieswitcher"
+msgstr ""
+
+#: ../configure.zcml:36
+msgid "collective.cookieswitcher (uninstall)"
+msgstr ""
+
+#: ../viewlets/cookieswitcher.pt:6
+msgid "desc_data_handling"
+msgstr "Visits and navigation are recorded and evaluated anonymously. Please use switch for setting, follow link for information."
