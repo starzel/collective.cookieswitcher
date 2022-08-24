@@ -10,4 +10,13 @@
 	  </field>
 	  <value>https://matomourl.com/</value>
 	</record>
+  <record name="collective.cookieswitcher.data_handling_url">
+    <field type="plone.registry.field.TextLine">
+      <title>Data handling URL</title>
+      <description></description>
+      <required>True</required>
+    </field>
+    <value>/de/datenschutz</value>
+  </record>
+
 </registry>

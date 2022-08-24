@@ -45,4 +45,5 @@ class CookieSwitcherViewlet(ViewletBase):
         return super(CookieSwitcherViewlet, self).render()
 
     def page_link(self):
-        return get_link(path='/de/datenschutz')
+        url = api.portal.get_registry_record(name='collective.cookieswitcher.data_handling_url', default='')
+        return get_link(path=url)
