@@ -10,9 +10,9 @@
 	  </field>
 	  <value>https://matomourl.com/</value>
 	</record>
-  <record name="collective.cookieswitcher.data_handling_url">
+  <record name="collective.cookieswitcher.data_processing_url">
     <field type="plone.registry.field.TextLine">
-      <title>Data handling URL</title>
+      <title>Data processing URL</title>
       <description></description>
       <required>True</required>
     </field>

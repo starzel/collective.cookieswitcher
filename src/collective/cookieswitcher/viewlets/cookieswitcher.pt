@@ -5,12 +5,12 @@
                nav_root portal_state/navigation_root;">
     <span id="matomoAjaxOptButton"
           class="switch off"
-          i18n:attributes="title desc_data_handling"
+          i18n:attributes="title desc_data_processing"
           title=""
     >Not track</span>
 
-  <a i18n:attributes="title desc_data_handling" title=""
-     i18n:translate="" tal:attributes="href python:view.page_link()">Data handling</a>
+  <a i18n:attributes="title desc_data_processing" title=""
+     i18n:translate="" tal:attributes="href python:view.page_link()">Data Processing</a>
 
 
   <script tal:content="view/matomo_url">

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-08-24 14:18+0000\n"
+"POT-Creation-Date: 2022-08-25 09:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Domain: DOMAIN\n"
 
 #: ../viewlets/cookieswitcher.pt:12
-msgid "Data handling"
+msgid "Data Processing"
 msgstr "Datenverarbeitung"
 
 #: ../configure.zcml:27
@@ -35,5 +35,5 @@ msgid "collective.cookieswitcher (uninstall)"
 msgstr ""
 
 #: ../viewlets/cookieswitcher.pt:6
-msgid "desc_data_handling"
+msgid "desc_data_processing"
 msgstr "Besuch und Navigation werden hier anonym erfasst und ausgewertet. Für Einstellung bitte Schalter nutzen, für Hinweise bitte Link folgen."
